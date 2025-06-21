@@ -1,0 +1,10 @@
+/* Example customization for Rafi Media */
+:root {
+    --theme-primary: #003366;
+    --theme-secondary: #6699cc;
+}
+
+body {
+    background-color: var(--theme-primary);
+    color: #ffffff;
+}
