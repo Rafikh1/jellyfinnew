@@ -1,10 +1,11 @@
-<h1 align="center">Jellyfin</h1>
+<h1 align="center">Rafi Media</h1>
+<p align="center"><em>Forked from Jellyfin</em></p>
 <h3 align="center">The Free Software Media System</h3>
 
 ---
 
 <p align="center">
-<img alt="Logo Banner" src="https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true"/>
+<img alt="Rafi Media Logo" src="https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true"/>
 <br/>
 <br/>
 <a href="https://github.com/jellyfin/jellyfin">
@@ -177,6 +178,12 @@ This repository also includes unit tests that are used to validate functionality
 ### Advanced Configuration
 
 The following sections describe some more advanced scenarios for running the server from source that build upon the standard instructions above.
+
+### Custom Branding Example
+
+You can customize the look of this server by using the built-in branding options.
+This repository includes a sample stylesheet in `branding/rafi.css` and usage
+instructions in `branding/README.md`.
 
 #### Hosting The Web Client Separately
 
